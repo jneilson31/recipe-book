@@ -1,0 +1,17 @@
+button {
+    margin: 0px 12px 12px 0px;
+}
+
+input::placeholder {
+    font-size: 10px;
+}
+
+.no-margin {
+    margin-left: -16px;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+    border-color: darkred;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
